@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Você lembra? 👀❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+
+        <div class="logo">❤️ Gabriel</div>
+
+        <nav>
+    <a href="index.html">Início</a>
+    <a href="historia.html">Nossa história</a>
+    <a href="fotos.html">Fotos</a>
+    <a href="musica.html">Música</a>
+    <a href="surpresa.html">Quiz</a>
+    <a href="contador.html">Contador</a>
+    <a href="carta.html">Carta</a>
+</nav>
+
+    </header>
+
+    <main>
+
+        <section class="secao quiz-pagina">
+
+            <p class="pequeno">uma coisinha antes... 👀</p>
+
+            <h1>Vamos ver se você lembra ❤️</h1>
+
+            <p class="quiz-intro">
+                Perguntas fáceis hein, pelo o amor de Deus. Quero gabarito.
+            </p>
+
+            <div class="quiz-caixa">
+
+                <div class="quiz-topo">
+                    <span id="numero-pergunta">Pergunta 1 de 13</span>
+                    <span id="pontuacao">❤️ 0</span>
+                </div>
+
+                <h2 id="pergunta">
+                    Onde a gente se conheceu?
+                </h2>
+
+                <div id="opcoes" class="opcoes">
+
+                    <button onclick="responder(0)">
+                        No shopping 🛍️
+                    </button>
+
+                    <button onclick="responder(1)">
+                        Na escola 🏫
+                    </button>
+
+                    <button onclick="responder(2)">
+                        Na igreja ⛪
+                    </button>
+
+                </div>
+
+                <p id="feedback" class="feedback"></p>
+
+            </div>
+
+           <div id="final-quiz" class="final-quiz">
+
+    <p class="pequeno">teste concluído ❤️</p>
+
+    <h2 id="resultado"></h2>
+
+    <p id="mensagem-final"></p>
+
+    <p class="frase-desbloqueio">
+        Você passou no teste. Agora vem uma das minhas partes favoritas... ❤️
+    </p>
+
+    <button onclick="location.href='contador.html'">
+        Desbloquear próxima página → ⏳
+    </button>
+
+</div>
+
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
